@@ -1,0 +1,14 @@
+<button
+  class="button"
+  [ngClass]="{
+    button_special: label === 'C' || label === 'CE',
+    button_sign:
+      label === '+' ||
+      label === '-' ||
+      label === '/' ||
+      label === '*' ||
+      label === '='
+  }"
+>
+  {{ label }}
+</button>

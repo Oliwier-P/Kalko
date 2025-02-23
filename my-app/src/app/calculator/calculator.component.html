@@ -1,0 +1,9 @@
+<div class="calculator">
+  <app-display [result]="display"></app-display>
+
+  <div class="buttons_grid">
+    <div *ngFor="let btn of buttons">
+      <app-button [label]="btn"></app-button>
+    </div>
+  </div>
+</div>
