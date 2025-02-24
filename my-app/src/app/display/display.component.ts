@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './display.component.scss',
 })
 export class DisplayComponent {
-  @Input() result?: number;
+  @Input() result?: string;
 }

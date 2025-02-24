@@ -3,7 +3,7 @@
 
   <div class="buttons_grid">
     <div *ngFor="let btn of buttons">
-      <app-button [label]="btn"></app-button>
+      <app-button [label]="btn" (click)="onButtonClick(btn)"></app-button>
     </div>
   </div>
 </div>
